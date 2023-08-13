@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(242, 241, 240);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 90px;
+
+}
+.container{
+    width: 450px;
+    height: 480px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 2px 8px rgba(0, 0, 0, 4.5);
+
+}
+img{
+    width: 195px;
+    height: 130px;
+   
+}
+input{
+    text-align: center;
+    height: 33px;
+    width: 295px;
+    border-radius: 7px;
+    border: 2.4px solid black;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 120px;
+    height: 39px;
+    border-radius: 15px;
+    border: 2.2px solid black; 
+    box-shadow: 3px 4px 4px rgba(63, 48, 122, 0.8);
+
+}
+::placeholder{
+  text-decoration: solid;
+    
+}
